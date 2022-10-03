@@ -1,0 +1,158 @@
+body{margin: 0; 
+    font-family: monospace;   
+}
+
+#logo{
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+}
+#icon{
+    float: right;
+    padding: 15px;
+    font-size: 30px;
+
+}
+ul{
+    clear: both;
+    list-style-type: none;
+    padding-left: 15px;
+    font-size: 25px;
+    display: block;
+}
+#welcome{
+    font-size: 50px;
+}
+#first{
+    width: 100%;
+    color: white;
+    background: url(cactus3.jpg) center/cover fixed no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+}
+#middle{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+}
+#middleLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#middleRight img{
+    width: 100%;
+    height: 400px;
+
+}
+.middles{
+    margin-block: 40px;
+    width: 40%;
+}
+#cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gainsboro;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a{
+    margin-block: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+a:hover{ 
+    background-color: black; 
+    color: palevioletred;
+    transition: 300ms;
+}    
+input{
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: monospace;
+}
+.card{
+    margin-block: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 348px;
+    height: 333px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.mainItem{
+    height: 261px;
+    width: inherit;
+    background-position: center;
+    background-size: cover;
+}
+#cactus1{ background-image: url(cactus1.jpg);}
+#cactus2{ background-image: url(cactus2.jpg);}
+#cactus3{ background-image: url(cactus3.jpg);}
+#cactus4{ background-image: url(cactus4.jpg);}
+#cactus5{ background-image: url(cactus5.jpg);}
+#cactus6{ background-image: url(cactus6.jpg);}
+#cactus7{ background-image: url(cactus7.jpg);}
+#cactus8{ background-image: url(cactus8.jpg);}
+
+.left{
+    float: left;    
+    width: 40%;
+    height: inherit;
+    position: relative;
+}
+                                /*.left {       [Another way to do it]
+                                height: 10em;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center }
+                                .left h2 {    
+                                margin: 0 }*/
+.right{
+    float: right;
+    width: 30%;
+    height: inherit;
+    position: relative;
+}
+.left h2, .right h2{                     /* <<<== Important Rule*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: inherit;
+}
+/*.right h2{
+    position:absolute;
+    margin: 0;
+    top: 50%;
+    right: 50%;
+    margin-left: -50%;
+    transform: translate(50%, -50%); ||translate values are important there
+} we could use these properties to centeraise h2.*/
+.cardFooter{
+    height: 72px;
+    background-color: whitesmoke;
+
+}
+
+
+
