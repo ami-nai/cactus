@@ -26,7 +26,7 @@ ul{
 #first{
     width: 100%;
     color: white;
-    background: url(cactus3.jpg) center/cover fixed no-repeat;
+    background: url(images/cactus3.jpg) center/cover fixed no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,14 +103,14 @@ input{
     background-position: center;
     background-size: cover;
 }
-#cactus1{ background-image: url(cactus1.jpg);}
-#cactus2{ background-image: url(cactus2.jpg);}
-#cactus3{ background-image: url(cactus3.jpg);}
-#cactus4{ background-image: url(cactus4.jpg);}
-#cactus5{ background-image: url(cactus5.jpg);}
-#cactus6{ background-image: url(cactus6.jpg);}
-#cactus7{ background-image: url(cactus7.jpg);}
-#cactus8{ background-image: url(cactus8.jpg);}
+#cactus1{ background-image: url(images/cactus1.jpg);}
+#cactus2{ background-image: url(images/cactus2.jpg);}
+#cactus3{ background-image: url(images/cactus3.jpg);}
+#cactus4{ background-image: url(images/cactus4.jpg);}
+#cactus5{ background-image: url(images/cactus5.jpg);}
+#cactus6{ background-image: url(images/cactus6.jpg);}
+#cactus7{ background-image: url(images/cactus7.jpg);}
+#cactus8{ background-image: url(images/cactus8.jpg);}
 
 .left{
     float: left;    
